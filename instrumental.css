@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=New+Rocker&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+header{ 
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center; 
+  font-size: 100% 
+}
+body{
+  background-color: rgb(255, 253, 253)
+}
+nav ul {
+    background-image: url("fondo\ rojo.jpg");
+    display: flex;
+    flex-direction: row;
+    list-style: none;}
+
+ .RAÍCES{
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size: 22px;
+        display: flex; 
+        margin-left: 10%;
+        justify-content: center;
+  align-items: center;
+        text-align: justify;
+      
+        margin: 5%;
+      }
+
+ul li{ 
+  color: rgb(255, 255, 255); margin: 30px; font-size: 24px; 
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal; }
+
+.TÍTULOINSTRUMENTAL {
+    color:#000000;;
+    font-family: "New Rocker", system-ui;
+    font-size: 20px;
+    font-style: normal;
+    display: flex; justify-content:center;
+    }
+ol li{ 
+    color: black; font-size: 24px; 
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 22px;
+  display: flex;}
+
+       
+  .ROCKSITO{ 
+    color: #000000;
+    font-family: "New Rocker", system-ui;
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .BANDASRECOMENDADAS{ 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align:flex start;
+    margin-right: 10%;
+    color: #690707;
+    font-family: "New Rocker", system-ui;
+    font-size: 15px;
+    font-style: normal;
+    }
+
+
+  }
+
+.INFRAME{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   margin: 15%;
+    margin-left: 30%;}
+  
+footer{ 
+        background-image: url("fondo\ rojo.jpg");
+        color: rgb(255, 255, 255);
+        height: 100px;
+        font-family: "New Rocker", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+        justify-content: center;  
+        font-size: 220% ; 
+        align-items: center
+      }
+      h4{
+        color: black;
+        font-family: "New Rocker", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        margin: 30px
+      } 
+      p {
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size: 22px;
+      }

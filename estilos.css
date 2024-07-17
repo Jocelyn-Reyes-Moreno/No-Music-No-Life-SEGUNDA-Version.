@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=New+Rocker&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+header{ 
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center; 
+  font-size: 100% 
+}
+body{
+  background-color: rgb(255, 255, 255)
+}
+nav ul {
+  background-image: url("fondo\ rojo.jpg");
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav ul li{ 
+  color: rgb(255, 255, 255); margin: 30px; font-size: 24px; 
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} 
+.ROCKSITO{ 
+  color: rgb(0, 0, 0);
+  font-family: "New Rocker", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  flex-direction: row-reverse;
+  
+  align-items: flex-start
+}
+.ROCKSITO img {
+  width: 150%;
+  height: 250px;
+  margin: 2%;
+  border-radius: 30%
+}
+.ROCKT{ 
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align:center;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+.RAÍCES{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 22px;
+  display: flex; 
+  
+}
+.TÍTULOROCK {
+  color: #690707;
+  font-family: "New Rocker", system-ui;
+  font-size: 25px;
+  font-style: normal;
+  display: flex; justify-content:center;
+  margin: 2%
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h2 {color: #690707;
+  font-family: "New Rocker", system-ui;
+  font-size: 35px;
+  font-style: normal;
+  display: flex; justify-content:center;
+  margin: 1%;
+}
+h4{
+  color: black;
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 30px
+} 
+p {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 22px;
+}
+.read-more-btn {
+  background-color:#690707;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 8px 18px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px 0px#690707;
+  cursor: pointer;
+  font-family: "New Rocker", system-ui;
+  font-size: 15px;
+  font-style: normal;
+  display: flex; justify-content:center;
+  margin: 1%;
+} 
+.read-more-btn:hover {
+  background-color: black;
+  color: #fff;
+  box-shadow: none;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+} 
+.hideText {
+  display: none;
+}
+.showText {
+  display: block;
+}
+.LÍNEA{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.PUNK{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+footer{ 
+  background-image: url("fondo\ rojo.jpg");
+  color: rgb(255, 255, 255);
+  height: 100px;
+  font-family: "New Rocker", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: center;  
+  font-size: 220% ; 
+  align-items: center
+}
